@@ -11,4 +11,6 @@ secondBurger.weight = 500;
 console.log(hamburger.name); //Double Cheese Burger
 console.log(secondBurger.name); // Double Cheese Burger
 
+//Double cheese burger, perché secondBurger usa come reference hamburger e cambiando il primo, cambiano entrambi. Viene creato un solo oggetto
+
 
